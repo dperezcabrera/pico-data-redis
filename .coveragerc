@@ -1,0 +1,18 @@
+[run]
+branch = True
+source =
+    pico_redis
+omit =
+    */_version.py
+
+[paths]
+pico_redis =
+    src/pico_redis
+    .tox/*/lib/*/site-packages/pico_redis
+    .tox/*/site-packages/pico_redis
+    */site-packages/pico_redis
+
+[report]
+show_missing = True
+omit =
+    */_version.py
