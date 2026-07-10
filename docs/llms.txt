@@ -1,0 +1,22 @@
+# pico-data-redis
+
+> Redis integration for the Pico ecosystem: shared client and cache backend
+
+## Docs
+
+- [Home](https://dperezcabrera.github.io/pico-data-redis/)
+- [Getting Started](https://dperezcabrera.github.io/pico-data-redis/getting-started/)
+- [Architecture](https://dperezcabrera.github.io/pico-data-redis/architecture/)
+- [index](https://dperezcabrera.github.io/pico-data-redis/reference/)
+- [API](https://dperezcabrera.github.io/pico-data-redis/reference/api/)
+- [AI Coding Skills](https://dperezcabrera.github.io/pico-data-redis/skills/)
+- [FAQ](https://dperezcabrera.github.io/pico-data-redis/faq/)
+- [Troubleshooting](https://dperezcabrera.github.io/pico-data-redis/troubleshooting/)
+- [Changelog](https://dperezcabrera.github.io/pico-data-redis/CHANGELOG/)
+
+## For agents
+
+- [Full docs in one file](https://dperezcabrera.github.io/pico-data-redis/llms-full.txt)
+- [AGENTS.md (conventions and boundaries)](https://raw.githubusercontent.com/dperezcabrera/pico-data-redis/main/AGENTS.md)
+- [Flagship use case (whole ecosystem wired)](https://dperezcabrera.github.io/pico-boot/flagship/)
+- [PyPI](https://pypi.org/project/pico-data-redis/)
