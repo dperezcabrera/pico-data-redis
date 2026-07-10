@@ -26,3 +26,5 @@ class Sessions:
 ```
 
 Installed next to pico-caching, every `@cacheable` method transparently caches in Redis instead of process memory.
+
+**See it in context**: the [flagship use case](https://dperezcabrera.github.io/pico-boot/flagship/) wires this module into a full order platform together with the rest of the ecosystem.
