@@ -10,7 +10,7 @@
 ## Install
 
 ```bash
-pip install pico-redis
+pip install pico-data-redis
 ```
 
 ## Key concepts

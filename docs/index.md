@@ -1,11 +1,11 @@
-# pico-redis
+# pico-data-redis
 
 A shared injectable Redis client, and the backend that makes `@cacheable` distributed.
 
 ## Install
 
 ```bash
-pip install pico-redis
+pip install pico-data-redis
 ```
 
 ## 30-second example

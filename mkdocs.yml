@@ -1,9 +1,9 @@
-site_name: pico-redis Documentation
+site_name: pico-data-redis Documentation
 site_description: "Redis integration for the Pico ecosystem: shared client and cache backend"
-site_url: https://dperezcabrera.github.io/pico-redis/
+site_url: https://dperezcabrera.github.io/pico-data-redis/
 
-repo_name: dperezcabrera/pico-redis
-repo_url: https://github.com/dperezcabrera/pico-redis
+repo_name: dperezcabrera/pico-data-redis
+repo_url: https://github.com/dperezcabrera/pico-data-redis
 edit_uri: edit/main/docs/
 copyright: Copyright 2025-2026
 

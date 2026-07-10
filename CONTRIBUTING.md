@@ -1,10 +1,10 @@
-# Contributing to pico-redis
+# Contributing to pico-data-redis
 
 ## Development setup
 
 ```bash
-git clone https://github.com/dperezcabrera/pico-redis.git
-cd pico-redis
+git clone https://github.com/dperezcabrera/pico-data-redis.git
+cd pico-data-redis
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 ```
@@ -13,7 +13,7 @@ pip install -e ".[dev]"
 
 ```bash
 pytest tests/ -v
-pytest --cov=pico_redis --cov-report=term-missing tests/
+pytest --cov=pico_data_redis --cov-report=term-missing tests/
 tox
 ```
 

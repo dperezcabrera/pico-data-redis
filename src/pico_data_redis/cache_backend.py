@@ -1,7 +1,7 @@
 """Distributed cache backend for pico-caching.
 
 Satisfies pico-caching's ``CacheBackend`` Protocol structurally — no
-import of pico-caching needed. Installing pico-redis next to
+import of pico-caching needed. Installing pico-data-redis next to
 pico-caching makes ``@cacheable`` distributed: the interceptor prefers
 any non-in-memory backend it finds in the container.
 

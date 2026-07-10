@@ -1,6 +1,6 @@
 # FAQ
 
-## Does installing pico-redis force everything through Redis?
+## Does installing pico-data-redis force everything through Redis?
 
 Only `@cacheable` switches backend (pico-caching prefers non-in-memory backends automatically). Everything else uses Redis only where you inject the client.
 

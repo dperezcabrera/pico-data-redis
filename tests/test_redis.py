@@ -5,8 +5,8 @@ from pico_ioc import component
 from redis import Redis
 from redis import exceptions as redis_exceptions
 
-from pico_redis import RedisCacheBackend, RedisSettings
-from pico_redis.factory import RedisLifecycle
+from pico_data_redis import RedisCacheBackend, RedisSettings
+from pico_data_redis.factory import RedisLifecycle
 
 # --- factory + lifecycle ---
 

@@ -2,7 +2,7 @@ import fakeredis
 import pytest
 from pico_ioc import DictSource, configuration, init
 
-import pico_redis.factory as factory_module
+import pico_data_redis.factory as factory_module
 
 
 @pytest.fixture(autouse=True)
@@ -33,7 +33,7 @@ def make_container():
 
     def _make(*modules, config=None):
         cfg = configuration(DictSource(config or {}))
-        container = init(modules=["pico_redis", *modules], config=cfg)
+        container = init(modules=["pico_data_redis", *modules], config=cfg)
         created.append(container)
         return container
 
