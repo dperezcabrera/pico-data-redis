@@ -1,0 +1,33 @@
+# pico-data-redis
+
+> Redis integration for the Pico ecosystem: shared client and cache backend
+
+Install: `pip install pico-data-redis`. Import surface: `from pico_data_redis import ...`.
+
+## Usage
+
+```python
+from redis import Redis
+from pico_ioc import component
+
+@component
+class Sessions:
+    def __init__(self, redis: Redis):
+        self._redis = redis
+```
+
+## Public API
+
+- `class RedisCacheBackend`
+- `class RedisSettings` — Installing pico-data-redis opts the app into Redis: the client and the
+- `class RedisFactory`
+
+## Docs
+
+- docs/CHANGELOG.md
+- docs/architecture.md
+- docs/faq.md
+- docs/getting-started.md
+- docs/reference/ (2 pages)
+- docs/skills.md
+- docs/troubleshooting.md
