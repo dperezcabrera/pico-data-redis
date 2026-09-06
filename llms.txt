@@ -19,8 +19,8 @@ class Sessions:
 ## Public API
 
 - `class RedisCacheBackend`
-- `class RedisSettings` — Installing pico-data-redis opts the app into Redis: the client and the
 - `class RedisFactory`
+- `class RedisSettings` — Installing pico-data-redis opts the app into Redis: the client and the
 
 ## Docs
 
