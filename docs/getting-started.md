@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Python >= 3.11 (tested on 3.11, 3.12, 3.13 and 3.14)
-- pico-ioc >= 2.2.0 (pico-boot recommended for auto-discovery)
+- pico-ioc >= 2.3.3 (pico-boot recommended for auto-discovery)
 - redis-py >= 5 (installed automatically)
 - pico-caching only if you want the distributed `@cacheable` backend
 
